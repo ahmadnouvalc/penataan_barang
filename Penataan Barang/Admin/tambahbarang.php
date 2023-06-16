@@ -1,4 +1,13 @@
+<?php
 
+session_start();
+
+    if( !isset($_SESSION["login"])){
+        header("Location: ../User/index.php");
+        exit;
+    }
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +65,7 @@
               />
             </div>
             <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-            <button type="button" class="btn btn-secondary"><a class="nav-link" href="index.html">Beranda</button>
+            <button type="button" class="btn btn-secondary"><a class="nav-link" href="index.php">Beranda</a></button>
           </form>
         </div>
       </div>

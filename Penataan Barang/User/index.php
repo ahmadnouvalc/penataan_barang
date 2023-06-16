@@ -27,12 +27,11 @@
                         <a class="nav-link active" aria-current="page" href="">Lokasi</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <form class="d-flex column-gap-3" role="search">
                     <button class="btn btn-outline-danger me-2" type="submit">Filter</button>
                     <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-danger " type="submit">Search</button>
-                    <button class="btn btn-outline-danger " type="submit">Register</button>
-                    <button class="btn btn-outline-danger " type="submit">Login</button>
+                    <button class="btn bg-danger text-light" type="submit "><a class="nav-link" href="../Account/login.php">Login</a></button>
                 </form>
             </div>
         </div>
